@@ -1,0 +1,44 @@
+*{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+    background: #333;
+  }
+
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 8px;
+    display: inline-block;
+  }
+  body{
+    background-color: lightgray;
+  }
+
+
+p{
+  color: #6D8092;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px; 
+ }
+
+ .box {
+     margin-top: 60px; 
+     margin-bottom: 62px; 
+     padding: 10px 20px 15px; 
+     color:black;
+     background-color: white; 
+ 
+   }
+
+   .table{
+     font-size: 15px; 
+     border-top-color: white !important; 
+ }

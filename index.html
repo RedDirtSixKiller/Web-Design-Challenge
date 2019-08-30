@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HW 09 Web Stuff</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Latitude</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Temperature</a></li>
+                        <li><a href="#">Humidity</a></li>
+                        <li><a href="#">Cloudiness</a></li>
+                        <li><a href="#">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Comparison</a></li>
+                <li><a href="#">Data</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="box">
+                    <h3 class="Title">Summary</h3>
+                    <hr>
+                    <p>This is going to be the summary</p>
+                </div>
+            </div>
+
+
+            <div class="col-lg-5">
+                <div class="box">
+                    <h3 class="Title">Visualizations</h3>
+                    <hr>
+                    <div class="container">
+                        <div class="container">
+                            <div class="row" style="padding-bottom: 30px;">
+                                <div class="col-6">
+                                    <a href="max_temperature.html">
+                                        <img class="panel" src="Resources/assets/images/Fig1.png"
+                                            alt="Max Temperature Image">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="humidity.html">
+                                        <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-bottom: 30px;">
+                                <div class="col-6">
+                                    <a href="cloudiness.html">
+                                        <img class="panel" src="Resources/assets/images/Fig3.png"
+                                            alt="Cloudiness Graph">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="wind_speed.html">
+                                        <img class="panel" src="Resources/assets/images/Fig4.png"
+                                            alt="Wind Speed Graph">
+                                    </a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
