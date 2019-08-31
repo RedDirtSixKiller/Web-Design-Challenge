@@ -25,7 +25,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
                     <div class="dropdown-menu">
                         <a href="temp.html" class="dropdown-item">Max Temp</a>
-                        <a href="humidty.html" class="dropdown-item">Humidity</a>
+                        <a href="humidity.html" class="dropdown-item">Humidity</a>
                         <a href="clouds.html" class="dropdown-item">Cloudiness</a>
                         <a href="wind_speed.html" class="dropdown-item">Wind Speed</a>
                     </div>
@@ -42,53 +42,54 @@
         <div class="row">
             <div class="col-lg-7 col-md-12">
                 <div class="box">
-                    <h3 class="Title">Summary</h3>
+                    <h3 class="Title">Humidity</h3>
                     <hr>
-                    <p>We took a look at some weather data to see how latitude affects weather conditions. We used the OpenWeatherMaps API to gether data from hundreds of weather stations all over the world.</p>
-                    <p>We used Matplotlib to graph some correlations between weather compnents measured at different latitudes. You'll see that some compents, like temperature, are highly correlated with latitude but some others, perhaps suprisingly, don't seem to be influenced by their North/South positioning on our little blue planet.</p>
+                    <img src="images/humidity.png" alt="Humidity">
+                    <p>Humidity appears to have some relationship to latitude. Humidity appears to have a complicated relationship to latitude. Lower humidty areas are closer to the equator but interestingly higher humidity areas seem to occur at all latitudes.</p>
+
                 </div>
             </div>
 
 
             <div class="col-lg-5 col-md-12">
-                    <div class="box">
-                        <h3 class="Title">Visualizations</h3>
-                        <hr>
-    
-                        <div class="container">
-                            <div class="row" style="padding-bottom: 30px;">
-                                <div class="col-6">
-                                    <a href="temp.html">
-                                        <img class="panel" src="images/temp.png" width="175" height="125"
-                                            alt="Max Temperature">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                    <a href="humidity.html">
-                                        <img class="panel" src="images/humidity.png" width="175" height="125"
-                                            alt="Humidity Graph">
-                                    </a>
-                                </div>
+                <div class="box">
+                    <h3 class="Title">Visualizations</h3>
+                    <hr>
+
+                    <div class="container">
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="temp.html">
+                                    <img class="panel" src="images/temp.png" width="175" height="125"
+                                        alt="Max Temperature">
+                                </a>
                             </div>
-    
-                            <div class="row" style="padding-bottom: 30px;">
-                                <div class="col-6">
-                                    <a href="clouds.html">
-                                        <img class="panel" src="images/clouds.png" width="175" height="125"
-                                            alt="Cloudiness">
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                    <a href="wind_speed.html">
-                                        <img class="panel" src="images/wind_speed.png" width="175" height="125"
-                                            alt="Wind Speed">
-                                    </a>
-                                </div>
-                                <p> There are substantialy more measurement in the Northern hemisphere, which is due to the distribution of land mass, hence measurement staions.</p>
+                            <div class="col-6">
+                                <a href="humidity.html">
+                                    <img class="panel" src="images/humidity.png" width="175" height="125"
+                                        alt="Humidity Graph">
+                                </a>
                             </div>
+                        </div>
+
+                        <div class="row" style="padding-bottom: 30px;">
+                            <div class="col-6">
+                                <a href="clouds.html">
+                                    <img class="panel" src="images/clouds.png" width="175" height="125"
+                                        alt="Cloudiness">
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="wind_speed.html">
+                                    <img class="panel" src="images/wind_speed.png" width="175" height="125"
+                                        alt="Wind Speed">
+                                </a>
+                            </div>
+                            <p> There are substantialy more measurement in the Northern hemisphere, which is due to the distribution of land mass, hence measurement staions.</p>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <!-- Bootstrap JS -->
