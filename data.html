@@ -12,9 +12,8 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">Latitude</a>
+        <a href="index.html" class="navbar-brand">Latitude</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,14 +23,14 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Max Temp</a>
-                        <a href="#" class="dropdown-item">Humidity</a>
-                        <a href="#" class="dropdown-item">Cloudiness</a>
-                        <a href="#" class="dropdown-item">Wind Speed</a>
+                        <a href="temp.html" class="dropdown-item">Max Temp</a>
+                        <a href="humidty.html" class="dropdown-item">Humidity</a>
+                        <a href="clouds.html" class="dropdown-item">Cloudiness</a>
+                        <a href="wind_speed.html" class="dropdown-item">Wind Speed</a>
                     </div>
                 </div>
-                <a href="#" class="nav-item nav-link active">Comparison</a>
-                <a href="#" class="nav-item nav-link active">Data</a>
+                <a href="comparison.html" class="nav-item nav-link active">Comparison</a>
+                <a href="data.html" class="nav-item nav-link active">Data</a>
 
             </div>
 
@@ -40,53 +39,103 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="box">
-                    <h3 class="Title">Summary</h3>
-                    <hr>
-                    <p>This is going to be the summary</p>
-                </div>
-            </div>
 
 
-            <div class="col-lg-5 col-md-12">
-                <div class="box">
-                    <h3 class="Title">Visualizations</h3>
-                    <hr>
-
-                    <div class="container">
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="temp.html">
-                                    <img class="panel" src="images/i1.png" width="100" height="100"
-                                        alt="Max Temperature">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="humidity.html">
-                                    <img class="panel" src="images/i2.png" width="100" height="100"
-                                        alt="Humidity Graph">
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="cloudiness.html">
-                                    <img class="panel" src="images/i3.png" width="100" height="100" alt="Cloudiness">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="wind_speed.html">
-                                    <img class="panel" src="images/i4.png" width="100" height="100" alt="Wind Speed">
-                                </a>
-                            </div>
-                        </div>
+            <div class="box">
+                <h3 class="Title">The Data</h3>
+                <hr>
+                <p>Hi Grader. I did the orignal weather project a little different, there's 10k rows in my data. So for
+                    the data table I have the first few rows and a link to the json data.</p>
+                <div class="container">
+                    <div class="row" style="padding-bottom: 30px;">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th title="Field #1">City_ID</th>
+                                    <th title="Field #2">City</th>
+                                    <th title="Field #3">Cloudiness</th>
+                                    <th title="Field #4">Country</th>
+                                    <th title="Field #5">Date</th>
+                                    <th title="Field #6">Humidity</th>
+                                    <th title="Field #7">Lat</th>
+                                    <th title="Field #8">Lng</th>
+                                    <th title="Field #9">Max Temp C</th>
+                                    <th title="Field #10">Wind Speed m/s</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td align="right">0</td>
+                                    <td>Ocean</td>
+                                    <td align="right">04</td>
+                                    <td>NaN</td>
+                                    <td align="right">1528798954</td>
+                                    <td align="right">78</td>
+                                    <td align="right">32.25</td>
+                                    <td align="right">-29.15</td>
+                                    <td align="right">25.07</td>
+                                    <td align="right">9.13</td>
+                                </tr>
+                                <tr>
+                                    <td align="right">1</td>
+                                    <td>Ocean</td>
+                                    <td align="right">81</td>
+                                    <td>NaN</td>
+                                    <td align="right">1528798954</td>
+                                    <td align="right">62</td>
+                                    <td align="right">24.87</td>
+                                    <td align="right">136.62</td>
+                                    <td align="right">28.67</td>
+                                    <td align="right">7.30</td>
+                                </tr>
+                                <tr>
+                                    <td align="right">2</td>
+                                    <td>Ocrean</td>
+                                    <td align="right">100</td>
+                                    <td>NaN</td>
+                                    <td align="right">1528798954</td>
+                                    <td align="right">91</td>
+                                    <td align="right">-55.61</td>
+                                    <td align="right">160.91</td>
+                                    <td align="right">2.17</td>
+                                    <td align="right">17.64</td>
+                                </tr>
+                                <tr>
+                                    <td align="right">3</td>
+                                    <td>Fort Yukon</td>
+                                    <td align="right">0</td>
+                                    <td>CA</td>
+                                    <td align="right">1528798954</td>
+                                    <td align="right">62</td>
+                                    <td align="right">67.14</td>
+                                    <td align="right">-143.97</td>
+                                    <td align="right">9.47</td>
+                                    <td align="right">7.49</td>
+                                </tr>
+                                <tr>
+                                    <td align="right">4</td>
+                                    <td>Hentiesbaai</td>
+                                    <td align="right">0</td>
+                                    <td>NB</td>
+                                    <td align="right">1528798954</td>
+                                    <td align="right">84</td>
+                                    <td align="right">-22.22</td>
+                                    <td align="right">13.13</td>
+                                    <td align="right">13.97</td>
+                                    <td align="right">8.15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href='data/weather_data.json'>Link to full data set</a>
                     </div>
+
+
                 </div>
             </div>
         </div>
     </div>
+
+
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

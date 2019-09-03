@@ -12,9 +12,8 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">Latitude</a>
+        <a href="index.html" class="navbar-brand">Latitude</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,14 +23,14 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
                     <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Max Temp</a>
-                        <a href="#" class="dropdown-item">Humidity</a>
-                        <a href="#" class="dropdown-item">Cloudiness</a>
-                        <a href="#" class="dropdown-item">Wind Speed</a>
+                        <a href="temp.html" class="dropdown-item">Max Temp</a>
+                        <a href="humidty.html" class="dropdown-item">Humidity</a>
+                        <a href="clouds.html" class="dropdown-item">Cloudiness</a>
+                        <a href="wind_speed.html" class="dropdown-item">Wind Speed</a>
                     </div>
                 </div>
-                <a href="#" class="nav-item nav-link active">Comparison</a>
-                <a href="#" class="nav-item nav-link active">Data</a>
+                <a href="comparison.html" class="nav-item nav-link active">Comparison</a>
+                <a href="data.html" class="nav-item nav-link active">Data</a>
 
             </div>
 
@@ -40,53 +39,48 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="box">
-                    <h3 class="Title">Summary</h3>
-                    <hr>
-                    <p>This is going to be the summary</p>
-                </div>
-            </div>
 
 
-            <div class="col-lg-5 col-md-12">
-                <div class="box">
-                    <h3 class="Title">Visualizations</h3>
-                    <hr>
+            <div class="box">
+                <h3 class="Title">Visualizations</h3>
+                <hr>
 
-                    <div class="container">
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="temp.html">
-                                    <img class="panel" src="images/i1.png" width="100" height="100"
-                                        alt="Max Temperature">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="humidity.html">
-                                    <img class="panel" src="images/i2.png" width="100" height="100"
-                                        alt="Humidity Graph">
-                                </a>
-                            </div>
+                <div class="container">
+                    <div class="row" style="padding-bottom: 30px;">
+                        <div class="col-6">
+                            <a href="temp.html">
+                                <img class="panel" src="images/temp.png" alt="Max Temperature">
+                            </a>
                         </div>
-
-                        <div class="row" style="padding-bottom: 30px;">
-                            <div class="col-6">
-                                <a href="cloudiness.html">
-                                    <img class="panel" src="images/i3.png" width="100" height="100" alt="Cloudiness">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="wind_speed.html">
-                                    <img class="panel" src="images/i4.png" width="100" height="100" alt="Wind Speed">
-                                </a>
-                            </div>
+                        <div class="col-6">
+                            <a href="humidity.html">
+                                <img class="panel" src="images/humidity.png" 
+                                    alt="Humidity Graph">
+                            </a>
                         </div>
+                    </div>
+
+                    <div class="row" style="padding-bottom: 30px;">
+                        <div class="col-6">
+                            <a href="clouds.html">
+                                <img class="panel" src="images/clouds.png" alt="Cloudiness">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="wind_speed.html">
+                                <img class="panel" src="images/wind_speed.png" 
+                                    alt="Wind Speed">
+                            </a>
+                        </div>
+                        <p> There are substantialy more measurements in the Northern hemisphere, which is due to the
+                            distribution of land mass, hence measurement staions.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
